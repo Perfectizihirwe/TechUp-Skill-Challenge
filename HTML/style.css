@@ -1,0 +1,158 @@
+@font-face 
+{
+	font-family: "fut";	
+	src: url(./fonts/futura_light_bt.ttf) format("truetype");
+}
+
+@font-face 
+{
+	font-family: "futura";	
+	src: url(./fonts/futur.ttf) format("truetype");
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	width: 100%;
+	background-image: url("./circle.svg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+	font-family: fut;
+}
+
+.container
+{
+	width: 90%;
+	margin: 50px auto;
+	font-family: fut;
+}
+
+.contact-box
+{
+	background: white;
+	display: flex;
+}
+
+.contact-left
+{
+	background: white;
+	flex-basis: 50%;
+	padding: 0px 110px;
+}
+
+.contact-right
+{	
+	background-image: url("./blob.svg");
+	background-repeat: none;
+	background-size: 1900px;
+	background-position: top 8000px left 3480px;
+	flex-basis: 50%;
+	padding: 30px;
+	margin-left: 0px;
+}
+
+h1 
+{
+	padding-top: 80px;
+	font-family: "futura";
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+h2 
+{
+	font-family: "futura";
+	font-size: 30px;
+	margin-bottom: 10px;
+	padding-top: 200px;
+}
+
+
+.input-row
+{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.input-group .input-row
+{
+	flex-basis: 100%;
+	padding: 10px;
+}
+
+input
+{
+	width: 90%;
+	border: none;
+	border-bottom: 1px solid #000000;
+	outline: none;
+	padding-bottom: 5px;
+}
+
+.input1
+{
+	margin-right: 70px;
+	width: 85%;
+}
+
+.input2
+{
+	width: 200%;
+}
+
+.input3
+{
+	width: 200%;
+	padding-bottom: 50px;
+}
+
+::placeholder
+{
+	font-family: fut;
+	color: #000000;
+}
+
+label
+{
+	margin-bottom: 45px;
+}
+
+.button1
+{
+	background: #ff8d5e;
+	color: #fff;
+	width: 150px;
+	height: 50px;
+	border: none;
+	margin-bottom: 50px;
+
+}
+
+.logo
+{
+	width: 50px;
+	height: 50px;
+	padding-left: 70px;
+	padding: 30px;
+}
+
+.p1
+{
+	margin-bottom: 10px;
+}
+
+
+.line
+{
+	border-left: 2px solid darkgrey;
+	height: 200px;
+	left: 50%;
+	top: -50%;
+	margin-top: 230px;
+	margin-left: 120px;
+}
